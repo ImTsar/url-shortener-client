@@ -1,0 +1,77 @@
+.pageWrapper {
+  background: #f3f4f6;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.75rem 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.navInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #374151;
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.loginBtn,
+.logoutBtn {
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.loginBtn {
+  background: #2563eb;
+  color: white;
+}
+
+.logoutBtn {
+  background: #dc2626;
+  color: white;
+}
+
+.adminBadge {
+  background: #1f2937;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.main {
+  padding: 2rem 0;
+}
